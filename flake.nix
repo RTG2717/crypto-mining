@@ -10,7 +10,7 @@
     system = "x86_64-linux";
     pkgs = import nixpkgs { inherit system; };
 
-    configFile = ./config.json;
+    configFile = ./xmrig-config.json;
   in
   {
     packages.${system}.default = pkgs.writeShellApplication {
