@@ -1,5 +1,6 @@
 {
   "autosave": true,
+  "log-file": "./logs/xmrig.log",
   "cpu": {
     "enabled": true,
     "max-threads-hint": 50
